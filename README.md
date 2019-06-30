@@ -553,6 +553,6 @@ Which again shows that the model predicttion is correct and in this time, the me
 * echo "# Flask-API-for-spam-detection" >> README.md
 * git init
 * git add README.md
-* git commit -m "Spam Detector files"
+* git commit -m "files"
 * git remote add origin https://github.com/SoleimanRahmani/Flask-API-for-spam-detection.git
 * git push -u origin master
