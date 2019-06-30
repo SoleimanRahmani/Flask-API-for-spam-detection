@@ -1,4 +1,4 @@
-# Spam-Detector
+# Flask-API-for-spam-detection
 A simple Flask API to detect spam or ham messages using following Python packages:
 
 * Sklearn
@@ -296,7 +296,7 @@ clf = joblib.load(NB_spam_model)
 
 In the previous section, the code for classifying messages has been developed. In this section, a web application is developed that consists of a web page with a form field that let users enter a message. After submitting the message to the web application, it will render it on a new page which gives us a result of spam or not spam.
 
-First, we create a folder for this project called ```Spam-Detector```. The folder is as follows:
+First, we create a folder for this project called ```Flask-API-for-spam-detection```. The folder is as follows:
 
 <img width="446" alt="Screen Shot 2019-06-29 at 8 29 59 PM" src="https://user-images.githubusercontent.com/45254300/60390796-bd26cd80-9aac-11e9-9345-9155a886253e.png">
 
@@ -506,12 +506,12 @@ header h2{
 All the files in the directory is explained above. The next step is to runthe API by executing the following command in the Terminal:
 
 ```
-cd Spam-Detector
+cd Flask-API-for-spam-detection
 python app.py
 ```
 And the output would be:
 ```
-UIT-VPS-26NBR:Spam-Detector srahmani$ python3 app.py
+UIT-VPS-26NBR:Flask-API-for-spam-detection srahmani$ python3 app.py
   import imp
  * Serving Flask app "app"
  * Environment: production
@@ -550,9 +550,9 @@ Which again shows that the model predicttion is correct and in this time, the me
 
 
 #### To create a new repository on the command line, the following commands have been executed in the Terminal:
-* echo "# Spam-Detector" >> README.md
+* echo "# Flask-API-for-spam-detection" >> README.md
 * git init
 * git add README.md
 * git commit -m "Spam Detector files"
-* git remote add origin https://github.com/SoleimanRahmani/Spam-Detector.git
+* git remote add origin https://github.com/SoleimanRahmani/Flask-API-for-spam-detection.git
 * git push -u origin master
