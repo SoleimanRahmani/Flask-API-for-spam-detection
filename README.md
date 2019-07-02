@@ -227,7 +227,7 @@ Output:
 
 ```
 
-And the model with best can be obtained:
+And the best model can be obtained:
 
 ```python
 print('The model with best test Accuracy')
