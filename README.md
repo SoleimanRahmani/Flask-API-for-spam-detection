@@ -555,3 +555,37 @@ Which again shows that the model predicttion is correct and in this time, the me
 * git commit -m "files"
 * git remote add origin https://github.com/SoleimanRahmani/Flask-API-for-spam-detection.git
 * git push -u origin master
+
+
+
+## Deploy ML Flask app to Google Cloud Platform
+
+
+First, new project named "SoleimanRahmani" is built.
+
+
+<img width="325" alt="Screen Shot 2019-07-03 at 12 09 15 AM" src="https://user-images.githubusercontent.com/45254300/60562749-df2b8480-9d26-11e9-83b1-b51cbc35013d.png">
+
+
+<img width="748" alt="Screen Shot 2019-07-03 at 12 00 45 AM" src="https://user-images.githubusercontent.com/45254300/60562608-3715bb80-9d26-11e9-9218-0724bf3dd2df.png">
+
+And all built files are submitted in 
+
+<img width="446" alt="Screen Shot 2019-06-29 at 8 29 59 PM" src="https://user-images.githubusercontent.com/45254300/60562627-4a288b80-9d26-11e9-8850-ba6bc19752f6.png">
+
+To Deploy the app run:
+
+>> gcloud app deploy
+
+<img width="1680" alt="Screen Shot 2019-07-02 at 11 23 35 PM" src="https://user-images.githubusercontent.com/45254300/60562634-53195d00-9d26-11e9-91cd-c3c6124e5a06.png">
+
+
+Follow the prompt instructions to set it up. And next:
+
+>> gcloud app browse
+
+or Paste url (https://soleimanrahmani.appspot.com/) to new tab
+
+
+<img width="1677" alt="Screen Shot 2019-07-02 at 11 28 19 PM" src="https://user-images.githubusercontent.com/45254300/60562643-5c0a2e80-9d26-11e9-92bc-7a34cfec0305.png">
+
