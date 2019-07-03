@@ -563,15 +563,33 @@ Which again shows that the model predicttion is correct and in this time, the me
 
 First, new project named "SoleimanRahmani" is built.
 
-
-<img width="325" alt="Screen Shot 2019-07-03 at 12 09 15 AM" src="https://user-images.githubusercontent.com/45254300/60562749-df2b8480-9d26-11e9-83b1-b51cbc35013d.png">
-
-
 <img width="748" alt="Screen Shot 2019-07-03 at 12 00 45 AM" src="https://user-images.githubusercontent.com/45254300/60562608-3715bb80-9d26-11e9-9218-0724bf3dd2df.png">
+
 
 And all built files are submitted in 
 
-<img width="446" alt="Screen Shot 2019-06-29 at 8 29 59 PM" src="https://user-images.githubusercontent.com/45254300/60562627-4a288b80-9d26-11e9-8850-ba6bc19752f6.png">
+<img width="325" alt="Screen Shot 2019-07-03 at 12 09 15 AM" src="https://user-images.githubusercontent.com/45254300/60562749-df2b8480-9d26-11e9-83b1-b51cbc35013d.png">
+
+App Engine app's settings is configured in the ```app.yaml``` file. This file specifies how URL paths correspond to request handlers and static files. It  also contains information about your app's code, such as the runtime and the latest version identifier.
+
+```python
+entrypoint: "gunicorn -b :$PORT main:app"
+env: flex
+runtime: python
+runtime_config: 
+  python_version: 3
+```
+
+Dependencies for python applications are declared in a standard ```requirements.txt``` file. For example:
+
+```
+Flask==0.12.3 
+gunicorn==19.6.0	
+pandas==0.22.0
+numpy==1.11.2
+scipy==0.18.1
+scikit-learn>=0.18
+```
 
 To Deploy the app run:
 
@@ -588,4 +606,7 @@ or Paste url (https://soleimanrahmani.appspot.com/) to new tab
 
 
 <img width="1677" alt="Screen Shot 2019-07-02 at 11 28 19 PM" src="https://user-images.githubusercontent.com/45254300/60562643-5c0a2e80-9d26-11e9-92bc-7a34cfec0305.png">
+
+
+And the app is available on: https://soleimanrahmani.appspot.com/
 
