@@ -7,7 +7,7 @@ A simple Flask API to detect spam or ham messages ( https://soleimanrahmani.apps
 * Flask
 
 ## Description
-The purpose of this repository is to build a web app which classifies spam or ham (non-spam) messages. At first, the best offline machine learning model  is built. The next step is to make the model available as a service by creating an API for the model using Flask. Finally, use the service to predict online where the user can submit a message for classification.
+The purpose of this repository is to build a web app which classifies spam or ham (non-spam) messages. At first, the best offline machine learning model  is built. The next step is to make the model available as a service by creating an API for the model using Flask. Use the service to predict online where the user can submit a message for classification. FInally, deploy the built machine learning Flask app to Google Cloud Platform.
 
 
 ## 1. Building Machine Learning Model
